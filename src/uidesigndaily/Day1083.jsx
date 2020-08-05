@@ -1,7 +1,7 @@
 import React from 'react';
 export default () => {
     return (
-        <div className="bg-white px-12 py-16 rounded-lg w-1/5 shadow-lg ">
+        <div className="bg-white border-t-4  border-gray-800  px-12 py-16 rounded-lg w-full max-w-sm m-4 shadow-lg ">
             <h4 className="font-extrabold text-lg text-center tracking-wide">Login</h4>
             <p className="text-purple-600 mt-2 text-center text-sm font-medium">Create an account</p>
             <div className="flex flex-col mt-4">

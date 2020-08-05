@@ -1,7 +1,7 @@
 import React from 'react';
 export default () => {
     return (
-        <div className="bg-white p-8 rounded w-1/6 shadow-lg ">
+        <div className="bg-white p-8 rounded w-full m-4 max-w-xs shadow-lg ">
             <h4 className="font-extrabold tracking-wide">Jump back in!</h4>
             <p className="text-gray-600 mt-6 text-sm font-medium">Course 54% complete</p>
             <div className="rounded-full relative bg-gray-400 h-2 mt-2 w-full">
