@@ -6,7 +6,7 @@ export default () => {
     </label>)
 
     const dropDown = (...options) => (<div class="inline-block mt-2 relative w-full">
-        <select class="block tracking-wide font-medium appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline text-sm ">
+        <select class="block tracking-wide font-medium appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded  leading-tight focus:outline-none focus:shadow-outline text-sm ">
             {options.map(v => <option>{v}</option>)}
         </select>
         <div class="pointer-events-none absolute inset-y-0 right-0 flex  items-center px-2 text-gray-700">
@@ -15,7 +15,7 @@ export default () => {
     </div>)
 
     return (
-        <div className="flex items-center flex-col">
+        <div className="flex w-full items-center flex-col">
             <div className="bg-white   rounded-lg w-full max-w-xs m-4 shadow-lg ">
                 <div className="px-8 flex items-center py-10">
                     <svg fill="#bbb" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 52.059 52.059"><g transform="translate(-5.941 -5.941)"><path d="M41.477,38.649a20.03,20.03,0,1,0-2.828,2.828L54.586,57.414a2,2,0,0,0,2.828-2.828Zm-5.425-.217a16.033,16.033,0,1,1,2.38-2.38,16.033,16.033,0,0,1-2.38,2.38Z" /></g></svg>
