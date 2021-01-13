@@ -1,14 +1,11 @@
 module.exports = {
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  darkMode: "class", // or 'media' or 'class'
   theme: {
-    extend: {
-      colors: {
-        'gray-carbon': '#121416',
-        'gray-light-carbon': '#222426',
-        'pink-carbon': '#FF3E58',
-        'yellow-carbon': '#FFB93E',
-      }
-    }
+    extend: {},
   },
-  variants: {},
-  plugins: []
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 }

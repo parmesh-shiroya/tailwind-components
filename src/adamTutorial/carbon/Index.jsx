@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Bar } from 'react-chartjs-2'
+// import { Bar } from 'react-chartjs-2'
 import './custom.css'
 
 // https://dribbble.com/shots/13992785-Web-app-Carbon/attachments/5607063?mode=media
@@ -137,7 +137,7 @@ export default class Index extends Component {
                 <div className="mt-8">
                     <div class="rounded-lg w-3/6 items-center py-16 row-span-3 gutter bg-gray-carbon px-4 col-span-6 grid grid-cols-10">
                         <div className="col-span-8">
-                            <Bar data={barDataVisitor} options={barOptions} width={400} />
+                            {/* <Bar data={barDataVisitor} options={barOptions} width={400} /> */}
                         </div>
                         <div className="col-span-2 my-8">
                             <button className="bg-gray-carbon px-8 py-6 btn-shadow shadow-2xl rounded-lg border border-gray-light-carbon font-semibold flex items-center tracking-wider"><span className="bg-yellow-carbon mr-4 h-3 w-3 rounded-full"></span>Activity</button>
