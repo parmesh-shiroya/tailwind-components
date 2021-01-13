@@ -1,3 +1,9 @@
+### docker build -t tailwind-component .
+
+// docker run -it -v ~/tailwind-component:/app tailwind-component npx tailwindcss init
+
+### docker run -v ~/tailwind-component/src:/app/src --name tailwind-component --rm -d -p 3000:3000 -it  tailwind-component
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
