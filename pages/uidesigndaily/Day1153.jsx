@@ -1,5 +1,5 @@
 import React from 'react';
-export default () => {
+const Day1153 = () => {
     const dropDown = (...options) => (<div class="inline-block mt-3 relative w-full">
         <select class="block tracking-wide font-medium appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-4 pr-8 rounded  leading-tight  focus:outline-none focus:shadow-outline text-sm ">
             {options.map(v => <option>{v}</option>)}
@@ -44,3 +44,4 @@ export default () => {
         </div>
     )
 }
+export default Day1153;

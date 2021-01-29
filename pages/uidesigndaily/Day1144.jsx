@@ -1,5 +1,5 @@
 import React from 'react';
-export default () => {
+const Day1144 = () => {
     const checkbox = (label) => (<label class="my-4 flex items-center text-gray-600 text-sm font-semibold">
         <input class="mr-4 w-5 h-5  border-gray-500" type="checkbox" />
         <span class="text-sm leading-tight">{label}</span>
@@ -53,3 +53,5 @@ export default () => {
         </div>
     )
 }
+
+export const Day1144;

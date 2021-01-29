@@ -1,5 +1,5 @@
 import React from 'react';
-export default () => {
+const Day1152 = () => {
     return (
         <>
             <div className="bg-red-500 items-stretch sm:items-start text-white p-8 sm:px-8  sm:py-10 flex-col sm:flex-row rounded-md w-full m-4 max-w-md shadow-lg flex">
@@ -17,3 +17,5 @@ export default () => {
         </>
     )
 }
+
+export const Day1152;

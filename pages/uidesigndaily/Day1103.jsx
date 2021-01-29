@@ -1,5 +1,6 @@
 import React from 'react';
-export default () => {
+
+const Day1103 = () => {
     return (
         <div className="bg-white p-8 rounded w-full m-4 max-w-xs shadow-lg ">
             <h4 className="font-extrabold tracking-wide">Jump back in!</h4>
@@ -12,3 +13,5 @@ export default () => {
             <button className="text-xs rounded bg-orange-400 mt-4 font-bold px-6 py-2">Go to lesson</button>
         </div>)
 }
+
+export default Day1103;
